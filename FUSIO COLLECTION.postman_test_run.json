@@ -1,0 +1,259 @@
+{
+	"id": "19e994fa-f076-4c43-af26-34d2d116c56f",
+	"name": "FUSIO COLLECTION",
+	"timestamp": "2021-11-26T10:03:19.315Z",
+	"collection_id": "18146877-23a7ab08-6a90-4d34-9e95-4d09db1042c1",
+	"folder_id": 0,
+	"environment_id": "918ac478-afa1-47bd-839d-03b8075acdb2",
+	"totalPass": 1,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "e3664599-0731-4ebf-81e8-027f8e5d7f80",
+			"name": "Get All Todo Entries",
+			"url": "https://demo.fusio-project.org/index.php//todo?=",
+			"time": 672,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"confirm that the total result is 31": true,
+				"confirm that the entry with task 11 title has an id equal to  11": false,
+				"confirm that task 1 is present": false
+			},
+			"testPassFailCounts": {
+				"confirm that the total result is 31": {
+					"pass": 1,
+					"fail": 0
+				},
+				"confirm that the entry with task 11 title has an id equal to  11": {
+					"pass": 0,
+					"fail": 1
+				},
+				"confirm that task 1 is present": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				672
+			],
+			"allTests": [
+				{
+					"confirm that the total result is 31": true,
+					"confirm that the entry with task 11 title has an id equal to  11": false,
+					"confirm that task 1 is present": false
+				}
+			]
+		},
+		{
+			"id": "b3665f5b-a64d-47b7-aa98-9805e0383638",
+			"name": "Get All Todo Entries with id",
+			"url": "https://demo.fusio-project.org/index.php//todo/",
+			"time": 412,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				412
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7dec489a-5ca1-4922-8ff5-890953479059",
+			"name": "Get All Todo Entries with status",
+			"url": "https://demo.fusio-project.org/index.php/todo/",
+			"time": 518,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				518
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "dfea0884-af5a-4c03-8fab-2bafe3b0c96b",
+			"name": "Get All Todo Entries with title",
+			"url": "https://demo.fusio-project.org/index.php/todo/?title=",
+			"time": 222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				222
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c2b402d2-9198-4411-86e5-7001eeab0ffb",
+			"name": "Get All Entries with script",
+			"url": "https://demo.fusio-project.org/index.php/?apiVersion=",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				242
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "94c8c8a9-69ec-4347-9c15-3694c56bb104",
+			"name": "Get All Entries",
+			"url": "https://demo.fusio-project.org/index.php/",
+			"time": 266,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				266
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "323ea985-bcd1-4796-b1e2-c27b262d4707",
+			"name": "Get entry per ID 2",
+			"url": "https://demo.fusio-project.org/index.php//todo?todoid=11%20",
+			"time": 292,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				292
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ff372154-f4e1-4b1a-9a49-816caa1bc4a2",
+			"name": "Get entry per ID with script id 2",
+			"url": "https://demo.fusio-project.org/index.php/todo?todoid={{entityid}}",
+			"time": 246,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				246
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0b3eac2b-98e7-496c-bd3a-11f62d8f3c9c",
+			"name": "Get entry per ID id 20",
+			"url": "https://demo.fusio-project.org/index.php//todo?todoid=2",
+			"time": 263,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				263
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "0c976ebf-f4d2-483d-a27f-02a2c60aa2bb",
+			"name": "Get entry per ID with script id 20",
+			"url": "https://demo.fusio-project.org/index.php/todo?todoid=20",
+			"time": 230,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				230
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 3363,
+	"collection": {
+		"requests": [
+			{
+				"id": "e3664599-0731-4ebf-81e8-027f8e5d7f80",
+				"method": "GET"
+			},
+			{
+				"id": "b3665f5b-a64d-47b7-aa98-9805e0383638",
+				"method": "GET"
+			},
+			{
+				"id": "7dec489a-5ca1-4922-8ff5-890953479059",
+				"method": "GET"
+			},
+			{
+				"id": "dfea0884-af5a-4c03-8fab-2bafe3b0c96b",
+				"method": "GET"
+			},
+			{
+				"id": "c2b402d2-9198-4411-86e5-7001eeab0ffb",
+				"method": "GET"
+			},
+			{
+				"id": "94c8c8a9-69ec-4347-9c15-3694c56bb104",
+				"method": "GET"
+			},
+			{
+				"id": "323ea985-bcd1-4796-b1e2-c27b262d4707",
+				"method": "GET"
+			},
+			{
+				"id": "ff372154-f4e1-4b1a-9a49-816caa1bc4a2",
+				"method": "GET"
+			},
+			{
+				"id": "0b3eac2b-98e7-496c-bd3a-11f62d8f3c9c",
+				"method": "GET"
+			},
+			{
+				"id": "0c976ebf-f4d2-483d-a27f-02a2c60aa2bb",
+				"method": "GET"
+			}
+		]
+	}
+}
